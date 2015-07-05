@@ -1,0 +1,62 @@
+.hidden{
+    display: none;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 80%;
+}
+.stage{
+    background: #F6DC76;
+    float: left;
+    margin-right: 2.5%;
+    min-height: 600px;
+    max-height: 600px;
+    padding: 25px;
+    text-align: center;
+    width: 70%;
+}
+#userImage{
+    max-height: 100%;
+    max-width: 100%;
+}
+.controls{
+    background: #E9EAED;
+    min-height: 600px;
+    max-height: 600px;
+    text-align: center;
+    padding: 25px 0;
+    position: relative;
+    float: right;
+    width: 20%;
+}
+.controls .control_btn{
+    padding: 10px;
+}
+.block2{
+    position: relative;
+    top: 50px;
+    width: 100%;
+}
+#pageReload{
+    margin: 20px;
+}
+.gammaImage {
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -ms-filter: invert(100%);
+    filter: invert(100%);
+}
+.impText{
+    color: #fd0100;
+    font-size: 20px;
+    margin: 20px;
+}
+.floatingElement{
+    display: none;
+    position: absolute;
+    border-radius: 50%;
+    background: red;
+    height: 10px;
+    width: 10px;
+    pointer-events: none;
+}

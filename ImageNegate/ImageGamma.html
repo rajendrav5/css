@@ -1,0 +1,42 @@
+<head>
+    <meta property="og:site_name" content="ImageConverter">
+    <meta property="og:url" content="http://h-raj.portly.co">
+    <meta property="og:type" content="website">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Image Development">
+    <meta property="og:description" content="H -raj is a  page for developing image inversions">
+    <meta property="og:image" content="https://dummyimage.com/120x120">
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<div class="wrapper">
+    <div class="stage">
+        <div id="imageHolder">
+            <img id="userImage">
+        </div>
+    </div>
+    <div class="controls">
+        <input type="file" value="Upload Your Image" class="control_btn" id="fileReader">
+        <div class="block2">
+            <button class="control_btn" id="invertImage">Convert Your Image</button>
+            <div class="hidden impText" id='userMessage'>
+                <p>
+                    !! Now fix the yellow point on the nose of the image <br/>
+                    And focus on the Image for 10 seconds and then look at the blank space
+                </p>
+            </div>
+            <div class="fb-share-button" data-href="https://h-raj.portly.co" data-layout="icon_link"></div>
+            <button class="control_btn" id="pageReload">Reload the page</button>
+        </div>
+    </div>
+</div>
+<div class="floatingElement"></div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1544160689180426&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="app.js"></script>
